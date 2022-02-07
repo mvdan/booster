@@ -11,13 +11,16 @@ github.com/anatol/devmapper.go v0.0.0-20211210164347-f67e20c4e7f7 h1:/7MxcPFdUY7
 github.com/anatol/devmapper.go v0.0.0-20211210164347-f67e20c4e7f7/go.mod h1:zrna3BRNXKHSyOiw0ynGV2ASklN+IQBl4A4J+mXghCY=
 github.com/anatol/luks.go v0.0.0-20211210165108-5d9a15b4f614 h1:6nOeQoay/QVdEippGzfI9TxBTqPXV2EEfsY4jOBHJLc=
 github.com/anatol/luks.go v0.0.0-20211210165108-5d9a15b4f614/go.mod h1:88QkZxTPcAlsKkZvVVTs8YMn2Avp5H5itbmFNjGusaY=
+github.com/anatol/smart.go v0.0.0-20220218195151-5ee9e8fa73f0 h1:rnURfQKi7StDt+WxNWW0LSHZp4sexCTwV+QOFEEZJjg=
+github.com/anatol/smart.go v0.0.0-20220218195151-5ee9e8fa73f0/go.mod h1:mPog5NmM5znyLbUO9WQPJ4xQdVtuHPptPavY0055POc=
 github.com/anatol/tang.go v0.0.0-20211208011427-4f66a321d8ef/go.mod h1:GZLaH5+MzHEIY9aJpo6NU4Gess1AbA2P9AFFQkG8B2M=
 github.com/anatol/tang.go v0.0.0-20211230003118-4e3b011304ee h1:3OVqAwN2dpmvc1Evern4TyGvoPLiPAwiUn7MG5NV0KY=
 github.com/anatol/tang.go v0.0.0-20211230003118-4e3b011304ee/go.mod h1:6sIiHp2IvVRl6LTFvGO1OGW2Rzjl64gg5UHL0Jir42c=
 github.com/anatol/uevent.go v1.0.1-0.20210811163347-3e166d38c549 h1:CPuCjtWK5UI9KQPDhylGHfZe7Pp8j58WK7i3wpLemA0=
 github.com/anatol/uevent.go v1.0.1-0.20210811163347-3e166d38c549/go.mod h1:yO7hm0VhhOujsh+j0nn8ExPhAqIJh50MZOcKetKhAPA=
-github.com/anatol/vmtest v0.0.0-20211004221854-3a36b6b86cc0 h1:1my48uvB1J9Gpe9Jl03rdyHY2U4j0uRGQ6zmeGAMFao=
 github.com/anatol/vmtest v0.0.0-20211004221854-3a36b6b86cc0/go.mod h1:JiDFhD1zjgMx9ONsHhhucGwMvCLrJMl/yu/l5qP4XFw=
+github.com/anatol/vmtest v0.0.0-20211215032353-afd7b1dd38ef h1:YQzm9r8/ArTsQ6C3/h+w4Dz5dfkYkQbK/3ETLWW2i7Q=
+github.com/anatol/vmtest v0.0.0-20211215032353-afd7b1dd38ef/go.mod h1:JiDFhD1zjgMx9ONsHhhucGwMvCLrJMl/yu/l5qP4XFw=
 github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6/go.mod h1:grANhF5doyWs3UAsr3K4I6qtAmlQcZDesFNEHPZAzj8=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=
@@ -209,6 +212,7 @@ golang.org/x/crypto v0.0.0-20201217014255-9d1352758620/go.mod h1:jdWPYTVW3xRLrWP
 golang.org/x/crypto v0.0.0-20211202192323-5770296d904e/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/crypto v0.0.0-20211209193657-4570a0811e8b/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
+golang.org/x/crypto v0.0.0-20220131195533-30dcbda58838/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/crypto v0.0.0-20220214200702-86341886e292 h1:f+lwQ+GtmgoY+A2YaQxlSOnDjXcQ7ZRLWOHbC6HtRqE=
 golang.org/x/crypto v0.0.0-20220214200702-86341886e292/go.mod h1:IxCIyHEi3zRg3s0A5j5BB6A9Jmi73HwBIUl50j+osU4=
 golang.org/x/exp v0.0.0-20190121172915-509febef88a4/go.mod h1:CJ0aWSM057203Lf6IL+f9T1iT9GByDxfZKAQTCR3kQA=
@@ -269,6 +273,7 @@ golang.org/x/sys v0.0.0-20211205182925-97ca703d548d/go.mod h1:oPkhp1MJrh7nUepCBc
 golang.org/x/sys v0.0.0-20211209171907-798191bca915/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20211210111614-af8b64212486/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.0.0-20220204135822-1c1b9b1eba6a/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20220209214540-3681064d5158 h1:rm+CHSpPEEW2IsXUib1ThaHIjuBVZjxNgSKmBLFfD4c=
 golang.org/x/sys v0.0.0-20220209214540-3681064d5158/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/term v0.0.0-20201117132131-f5c789dd3221/go.mod h1:Nr5EML6q2oocZ2LXRh80K7BxOlk5/8JxuGnuhpl+muw=
